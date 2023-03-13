@@ -2,7 +2,7 @@
 </script>
 
 <svelte:head>
-	<title>Posts | Victoria T P</title>
+	<title>Posts | Marcel Irawan</title>
 </svelte:head>
 
 <section><h1>All Posts</h1></section>

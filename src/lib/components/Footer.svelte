@@ -1,23 +1,26 @@
 <script lang="ts">
-	import { GithubIcon, LinkedinIcon } from 'svelte-feather-icons';
+	import { GithubIcon, InstagramIcon, LinkedinIcon } from 'svelte-feather-icons';
 </script>
 
 <footer>
 	<section>
-		<a data-sveltekit-preload-data href="https://github.com/victoriatrinita" aria-label="github profile">
-			<GithubIcon />
+		<a data-sveltekit-preload-data href="https://instagram.com/mrcl.irawan" aria-label="instagram profile">
+			<InstagramIcon />
 		</a>
-		<a data-sveltekit-preload-data href="https://www.linkedin.com/in/victoria-trinita/" aria-label="linkedin profile">
+		<a data-sveltekit-preload-data href="https://www.linkedin.com/in/theofilusmarcel/" aria-label="linkedin profile">
 			<LinkedinIcon />
 		</a>
 	</section>
 
 	<section>
-		<p>
+		<!-- <p>
 			Copyright &copy; 2022 &ndash; {new Date().getFullYear()} Victoria Trinita P. All Rights Reserved.
+		</p> -->
+		<p>
+			Designed & Developed by <b>Victoria Trinia</b>.
 		</p>
 		<p>
-			Peek at this website's source code on <a
+			Check the source code on <a
 				href="https://github.com/victoriatrinita/victoriatrinita.com/">Github</a
 			>!
 		</p>

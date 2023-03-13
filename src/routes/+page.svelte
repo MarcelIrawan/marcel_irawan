@@ -3,20 +3,20 @@
 </script>
 
 <svelte:head>
-	<title>Home | Victoria T P</title>
+	<title>Home | Marcel Irawan</title>
 </svelte:head>
 
 <svelte:window bind:innerWidth />
 
 <div class="wrapper">
 	<header>
-		<img src="assets/profile/ori.svg" alt="Girl working on laptop illustration" />
+		<!-- <img src="assets/icon.jpg" alt="hanging lamp" /> -->
 		<div>
 			{#if innerWidth > 600}
-				<h1>A collection of favourites and thoughts</h1>
+				<h1>Place to Share</h1>
 			{:else}
-				<h1>A collection of favourites</h1>
-				<h1>and thoughts</h1>
+				<h1>Place to Share</h1>
+				<!-- <h1>and thoughts</h1> -->
 			{/if}
 		</div>
 	</header>
@@ -24,24 +24,22 @@
 	<div>
 		<h2>About</h2>
 		<p>
-			Hi there! I'm Victoria, a final year Information Engineering student. I enjoy exploring in the
-			world of web development. I also have an obsession of keeping a documentation of the things I
-			think, like, and find meaningful. Those two, combined, is why I created this little space on
-			the internet.
+			Will be using this web to share my writings. I do love to write, mostly poem and something like story telling.
+			I also starting some photography, check out some of it on my <a href="https://instagram.com/mrcl.irawan">Instagram</a>.
 		</p>
 		<br />
-		<a href="/about">More info...</a>
+		<!-- <a href="/about">More info...</a> -->
 	</div>
-
+	<hr>
 	<div>
 		<h2>Recent Posts</h2>
 		<p>No posts yet.</p>
 	</div>
 
-	<div>
+	<!-- <div>
 		<h2>Tags</h2>
 		<p>No tags yet.</p>
-	</div>
+	</div> -->
 </div>
 
 <style>
@@ -99,7 +97,8 @@
 		z-index: -1;
 		left: 0;
 		right: 0;
-		background: #e8d8ff;
+		background: #FAEAB1;
+		/* background: #E5BA73; */
 	}
 
 	h1::after {
@@ -110,7 +109,8 @@
 		z-index: -1;
 		left: 0;
 		right: 0;
-		background: #c7fcc6;
+		background: #E5BA73;
+		/* background: #FAEAB1; */
 	}
 
 	p {

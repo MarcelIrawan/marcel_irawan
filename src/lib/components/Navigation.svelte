@@ -15,8 +15,8 @@
 <nav class={y > 1 ? 'shadowed' : ''}>
 	<div class="logo">
 		<a href="/">
-			<p>Victoria Trinita</p>
-			<p>Pardede</p>
+			<p>Marcel</p>
+			<p>Irawan</p>
 		</a>
 	</div>
 
@@ -85,7 +85,7 @@
 		z-index: -1;
 		left: 0;
 		right: 0;
-		background: #fff8ba;
+		background: #FAEAB1;
 	}
 
 	.menu {
@@ -117,7 +117,7 @@
 		left: 0;
 		right: 0;
 		margin: 0 1em;
-		background: #f0c2c2;
+		background:  #E5BA73;
 	}
 
 	@media only screen and (max-width: 600px) {
